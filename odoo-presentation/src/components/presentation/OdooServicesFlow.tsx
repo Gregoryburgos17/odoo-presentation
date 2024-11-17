@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { ChevronRight, Database, Users, BarChart, Settings, ShoppingCart, Package, Target, Building, Globe } from 'lucide-react';
 import BubbleBackground from './BubbleBackground';
 import OrganizationalStructure from './OrganizationalStructure';
+import ServicePlans from './OdooPlans';
 import type { CompanyInfo, Service } from './types';
 
 const OdooServicesFlow = () => {
